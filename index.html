@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login and register</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+	 	<img src="amit.jpg">
+	 	<nav class="header">
+	 		<a href="#">Home</a>
+	 		<a href="#">About</a>
+	 		<a href="#">Service</a>
+	 		<a href="#">Contact</a>
+	        <button class="login-btn">Login</button>
+	 	</nav>
+
+	</header>
+	<div class="wrapper">
+		<span class="close-icon"><img class="close-img" src="x.png"></span>
+		<div class="form login-form">
+			<h2>Login</h2>
+			<form action="#">
+				<div class="input-box">
+					<img class="icon" src="envelope.png">
+					<input type="text" name="text" required="required">
+					<label>Email</label>
+				</div>
+				<div class="input-box">
+					<img class="icon" src="lock.png">
+					<input type="password" name="password" required="required" >
+					<label>Password</label>
+				</div>
+				<div class="remember-forget">
+					<label class="box"><input type="checkbox" name="box"> remeber me</label>
+					<span class="forget">forget my <a href="#">password?</a></span>
+				</div>
+				<div class="login-register">
+					<button type="submit">Login</button>
+					<label>i don't have an account<a href="#" class="register-link">Register</a></label>
+				</div>
+			</form>
+		</div>
+		<div class="form register-form">
+			<h2>Registration</h2>
+			<form action="#">
+				<div class="input-box">
+					<img class="icon" src="user.png">
+					<input type="text" name="text" required="required">
+					<label>User name</label>
+				</div>
+				<div class="input-box">
+					<img class="icon" src="envelope.png">
+					<input type="text" name="text" required="required">
+					<label>Email</label>
+				</div>
+				<div class="input-box">
+					<img class="icon" src="lock.png">
+					<input type="password" name="password" required="required" >
+					<label>Password</label>
+				</div>
+				<div class="remember-forget">
+					<label class="box"><input type="checkbox" name="box"> agre to the terms & condition</label>
+				</div>
+				<div class="login-register">
+					<button type="submit">Register</button>
+					<label>i have an account?<a href="#" class="login-link">Login</a></label>
+				</div>
+			</form>
+		</div>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
